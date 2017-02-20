@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>视频中心</title>
+	<script type="text/javascript" src="js/styleInit.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+		body{
+			height: auto;
+			min-height: 100%;
+			position: relative;		
+			padding-top: 1px;	
+		}
+		.main{			
+			height: auto;
+			min-height: 100%;
+			padding-bottom: 220px;
+		}
+		.foot{
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+		}
+	</style>
+	<script>
+		window.name = "video";
+	</script>
+</head>
+<body>
+
+	<div class="head">
+		<div class="head-m">
+			<a href="index.html"><img src="https://img.alicdn.com/tps/TB1n3bWPXXXXXc3XFXXXXXXXXXX-324-50.png" ></a>
+			<ul class="nav">
+				<a href="index.html"><li>首页</li></a>
+				<a href="video.html"><li class="active">视频中心</li></a>
+				<a href="photo.html"><li>品牌图集</li></a>
+			</ul>
+		</div>
+	</div>
+
+	<div class="main animation">
+		<div class="content">
+
+			<div class="videos">
+				<div class="title">
+					<h2>VIDEO</h2>
+					<p>可在线观看\下载  共1248个视频</p>
+					<div class="gif"></div>
+				</div>
+				<div class="classify" >
+					<label >分类</label>
+					<ul id = "classify">
+						<li class="active">全部视频(1248)</li>
+						<li >菜鸟大事(12)</li>
+						<li>菜鸟驿站(22)</li>
+						<li>菜鸟裹裹(35)</li>
+						<li>613大会(56)</li>
+						<li>江湖大会(88)</li>
+						<li>菜鸟裹裹(35)</li>
+						<li>其他(22)</li>
+					</ul>
+					<div class="years-btn" id='year'><span>2016</span><b></b>
+						<ul class="hover">
+							<li>2016</li>
+							<li>2015</li>
+							<li>2014</li>
+						</ul>
+					</div>
+					<div class="result" >符合筛选条件共<span id='result'>145</span>个视频</div>
+				</div>
+				<ul class="con" id = 'video'><!-- 默认显示18个（交互要求） -->
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB1WsTVPXXXXXa1XpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB1WsTVPXXXXXa1XpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB1WsTVPXXXXXa1XpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB1WsTVPXXXXXa1XpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB1WsTVPXXXXXa1XpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB1WsTVPXXXXXa1XpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB1WsTVPXXXXXa1XpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB1WsTVPXXXXXa1XpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+					<li>					
+						<img src="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" >	
+						<p>菜鸟驿站-社区 <span>下载</span></p>
+						<div class="gray">	
+							<p class="time">45:00 / 125Mb</p>						
+							<div class="play" data-src='https://cloud.video.taobao.com/play/u/2039410823/p/1/e/6/t/1/47069268.mp4' data-potser="https://img.alicdn.com/tps/TB128rVPXXXXXbZXpXXXXXXXXXX-270-180.png" data-time="45:00" data-size="125Mb"></div>
+						</div>
+					</li>
+				</ul>
+				<div class="load" id = 'load'>
+					<img src="https://gw.alicdn.com/tps/TB1gl6yPXXXXXasXVXXXXXXXXXX-14-14.png" alt="">
+					<span>加载更多</span>
+				</div>			
+			</div>	
+		</div>
+		<span class="radius r1"></span>
+		<span class="radius l2"></span>
+		<span class="radius l3"></span>
+		<span class="radius l4"></span>
+		<span class="radius r5"></span>
+	</div>
+	
+	<div class="foot">
+		<img src="https://img.alicdn.com/tps/TB1jyrQPXXXXXXaXFXXXXXXXXXX-997-100.png" class="bot-banner">
+		<div class='foot-box'><p>CNUX-菜鸟用户体验中心出品</p></div>
+	</div>
+
+	<!-- 弹出框 -->
+	<div class="fixed-box" id="popBox">
+		<div class="video-box">
+			<video controls="" id = "vd" src="" preload="none" ></video>
+			<div class="close" id = 'close'>
+				<img src="https://gw.alicdn.com/tps/TB19_9UPXXXXXXuXVXXXXXXXXXX-200-200.png">
+			</div>
+			<div class="poster" id = 'poster'>
+				<div class="rgba"></div>
+				<p class="time" id = 'time'></p>				
+			</div>
+		</div>
+	</div>	
+	<!-- 弹出框 -->
+
+</body>
+<script>window.needscroll = true;</script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>		
